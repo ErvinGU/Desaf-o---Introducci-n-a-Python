@@ -5,7 +5,7 @@ import math as m
 #formula : √ 2*G*r
 
 g = float(input("ingrese constante de g [m/s²] : "))
-r = float(input("ingrese el radio en kilometros [Km] : "))
+r = float(input("ingrese el radio en kilometros [Km] : ")) #se multiplicará por 1000 para transformar a metros
 
 ve = (m.sqrt(2 * g * (r * 1000)))
 
